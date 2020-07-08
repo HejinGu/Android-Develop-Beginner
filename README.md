@@ -40,3 +40,19 @@
 ----
 * ⼀个抖⾳笔试题：统计⻚⾯所有view的个数 ViewGroup中的API：getChildCount() getChildAt()
 * 实现⼀个抖⾳消息⻚⾯，如右图-> ,并且点击每个recycleview的item,能够跳转到⼀个新的界⾯，并且在新的⻚⾯显示出他是第⼏个item
+
+## 安卓开发实训课程作业3
+----
+2020.07.08
+教师：字节跳动朱老师
+
+### 作业要求
+----
+* 引入并使用Lottie库实现简单的图标动画
+* 使用属性动画，练习AnimatorSet和scale/fade等基本动画样式
+* （选做）TabLayout，ViewPager
+
+### 本人实现
+----
+* 引入并使用Lottie库实现简单的图标动画
+* 使用属性动画，练习AnimatorSet和scale/fade等基本动画样式

@@ -56,12 +56,16 @@
 ----
 * 引入并使用Lottie库实现简单的图标动画
 * 使用属性动画，练习AnimatorSet和scale/fade等基本动画样式
-* （选做）TabLayout，ViewPager
+* （选做）用TabLayout，ViewPager实现一个简单的好友列表界面
 
 ### 本人实现
 ----
 * 引入并使用Lottie库实现简单的图标动画
 * 使用属性动画，练习AnimatorSet和scale/fade等基本动画样式
+* 用TabLayout，ViewPager做一个简单的好友列表界面
+    - 使用 ViewPager 和 Fragment 做个可滑动界面
+    - 使用 TabLayout 添加 Tab 支持（但是点不动第二个Tab，不知道为什么）
+    - 对于好友列表 Fragment，使用 Lottie 实现 Loading 效果，在 5s 后展示实际的列表，要求这里的动效是淡入淡出
 
 ## 安卓开发实训课程作业4
 ----

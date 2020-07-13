@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">todolist</string>
+    <string name="title_activity_todo_list">TodoListActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="hint_insert_complete">Mock数据插入完成</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="take_a_note">Take a note</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="hint_of_input">Write down your note……</string>
+    <string name="insert_success">成功插入</string>
+</resources>

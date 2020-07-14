@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.domker.study.androidstudy.player.VideoPlayerIJK
+        android:id="@+id/ijkPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="232dp">
+
+    </com.domker.study.androidstudy.player.VideoPlayerIJK>
+
+    <SeekBar
+        android:id="@+id/seek_sb"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_gravity="top">
+    </SeekBar>
+
+    <TextView
+        android:id="@+id/text_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="time" />
+
+    <Button
+        android:id="@+id/button_bt"
+        android:focusable="true"
+        android:focusableInTouchMode="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Play/Pause" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="8"
+        android:src="@drawable/ic_background" />
+
+    <Button
+        android:id="@+id/buttonLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="LoadImage"
+        android:textAllCaps="false"
+        android:layout_marginStart="150dp"/>
+
+</LinearLayout>
